@@ -1,0 +1,16 @@
+## Day 2: Navigation & The Linux File System (SOC Perspective) 📂
+
+### 🛠️ Essential Navigation Commands
+In the terminal, speed and precision are vital.
+- `pwd` (Print Working Directory): Confirms exactly where I am in the filesystem.
+- `ls -la`: Lists all files, including hidden ones (starting with `.`), and displays permissions, owners, and file sizes.
+- `cd`: Moves between directories to investigate different system areas.
+
+### 🔍 The "Gold Mine": `/var/log`
+This is the most critical directory for an analyst. It contains the "history" of the system.
+- **`auth.log` / `secure`**: Tracks login attempts. I use this to identify brute-force attacks.
+- **`syslog`**: General system messages and errors.
+
+### 🛡️ The "Attack Surface": `/etc`
+This directory contains system-wide configuration files. 
+- **Security Risk:** If an attacker gains write access to `/etc`, they can create new users in `/etc/passwd` or change service configurations to create backdoors.
