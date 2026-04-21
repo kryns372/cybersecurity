@@ -1,0 +1,17 @@
+## Day 1: Virtualization & Lab Safety 🛡️
+
+### Objective
+Establish a safe, isolated environment for malware analysis and system testing using Fedora Linux.
+
+### Key Concepts
+1. **Virtualization as a Sandbox:** A Virtual Machine (VM) is an isolated environment running on top of a host OS. In cybersecurity, this "sandbox" allows us to execute risky tasks (like running suspicious scripts) without compromising the host machine.
+   
+2. **Snapshots vs. Backups:**
+   A **Snapshot** is a "point-in-time" save of the VM's state. If a configuration fails or a test breaks the system, I can revert to the snapshot in seconds. It is the ultimate "Undo" button for security researchers.
+
+### Tasks Completed
+- [x] Installed **Fedora Workstation** in a VirtualBox/VMware environment.
+- [x] Configured the initial system settings.
+- [x] Created a **Base Snapshot** immediately after installation to ensure a clean state for future labs.
+
+> **SOC Insight:** Always snapshot before modifying `/etc/` configurations or installing unverified packages.
