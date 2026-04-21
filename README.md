@@ -1,4 +1,4 @@
-# 🦈 Shark's Cybersecurity Journey
+# 🦈 Djibril Amar Cybersecurity Journey
 
 Welcome to my documentation. I am a student in Senegal learning to become a SOC Analyst.
 
