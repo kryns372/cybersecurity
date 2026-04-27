@@ -16,6 +16,6 @@ Mastering the creation, movement, and deletion of files and directories. In a SO
 I practiced building a nested directory structure, moving files between branches, and then deleting and reconstructing the entire tree to test my speed and accuracy.
 
 ### 📸 Lab Evidence (Terminal Output)
-![File Management Lab](/home/liveuser/Pictures/Screenshots/Screenshot From 2026-04-27 14-31-04.png)
+![File Management Lab](https://github.com/kryns372/cybersecurity/blob/main/Screenshot%20From%202026-04-27%2014-31-04.png)
 
 > **💡 Security Tip:** Always use `cp` (copy) instead of `mv` (move) when dealing with suspicious files. You never want to accidentally lose the original location of an artifact.
