@@ -1,0 +1,21 @@
+# Day 3: File Management & Structural Reconstruction 📂
+
+## 🎯 Objective
+Mastering the creation, movement, and deletion of files and directories. In a SOC environment, these skills are essential for organizing evidence and managing analysis tools.
+
+## 🛠️ Commands Mastered
+| Command | Action | SOC Use Case |
+|:--- |:--- |:--- |
+| `touch` | Create a file | Creating "canary" files or logs. |
+| `mkdir` | Create a folder | Organizing evidence by case number. |
+| `cp` | Copy data | Making a working copy of a suspect file. |
+| `mv` | Move/Rename | Moving logs to a centralized directory. |
+| `rm` | Remove data | Cleaning up temporary analysis tools. |
+
+## 🧪 Practical Lab: Reconstruction Exercise
+I practiced building a nested directory structure, moving files between branches, and then deleting and reconstructing the entire tree to test my speed and accuracy.
+
+### 📸 Lab Evidence (Terminal Output)
+![File Management Lab](./Screenshot_From_2026-04-21.png)
+
+> **💡 Security Tip:** Always use `cp` (copy) instead of `mv` (move) when dealing with suspicious files. You never want to accidentally lose the original location of an artifact.
